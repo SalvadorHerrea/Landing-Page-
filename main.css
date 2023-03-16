@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 900px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+/* Landing Page Coffe */
+
+.landing-page {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/CoffePortada2.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+
+.landing-page .header-area {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+}
+
+.landing-page .header-area .logo {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 19px;
+    width: 300px;
+    color: #ffffff;
+}
+
+.landing-page .header-area .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing-page .header-area .links li {
+    display: inline-block;
+    margin-left: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.landing-page .header-area .links li:last-child {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #fff;
+    background-color: #606060;
+}
+
+.landing-page .aboutus {
+    width: 35%;
+    float: left;
+    margin-top: 130px;
+}
+
+.landing-page .aboutus h1 {
+    font-size: 44px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+.landing-page .aboutus p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.landing-page .aboutus button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #606060;
+}
+
+.clearfix {
+    clear: both;
+}
+
